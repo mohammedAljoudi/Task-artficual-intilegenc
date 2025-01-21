@@ -1,7 +1,7 @@
 # Task-artficual-intilegenc
 
-# This is the link to the Task 1(https://www.kaggle.com/code/malsharifm/task1-prediction-cycle-and-motorbike).
-'''
+# This is the link to the Task1(https://www.kaggle.com/code/malsharifm/task1-prediction-cycle-and-motorbike).
+```
 from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
@@ -50,4 +50,4 @@ plt.imshow(image)
 plt.title(f"Label: {class_name}\nPrediction: {confidence_score:.2f}")
 plt.axis("off")  # Hide axes for better visualization
 plt.show()
-'''
+```
